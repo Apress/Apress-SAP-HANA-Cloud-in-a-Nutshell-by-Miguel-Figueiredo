@@ -1,0 +1,1 @@
+refresh view V_SALARIES anonymization;
