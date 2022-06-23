@@ -1,0 +1,10 @@
+Column table “EMPLOYEE_SALARY” (
+    EMPLOYEE_ID INTEGER  unique not null COMMENT ‘Employee ID’,
+    EMPLOYEE_SALARY DOUBLE COMMENT ‘Employee Salary’,
+    EMPLOYEE_STARTING_YEAR INTEGER not null COMMENT ‘Employee Starting Year’,
+    EMPLOYEE_GENDER NVARCHAR(1) COMMENT ‘Employee Gender’,
+    EMPLOYEE_REGION NVARCHAR(4) COMMENT ‘Employee Region’,
+    EMPLOYEE_CAREER_LEVEL NVARCHAR(200) COMMENT ‘Employee Career Level’,
+    PRIMARY KEY (“EMPLOYEE_ID”)
+)
+COMMENT ‘Employee Salary’

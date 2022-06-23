@@ -1,0 +1,9 @@
+column table "EMPLOYEE_EXPERIENCE" (
+    "EMPLOYEE_ID" INTEGER  unique not null COMMENT 'Employee Id',
+    "EMPLOYEE_SCORE" DOUBLE COMMENT 'Employee Score',
+    "MANAGER_ID" INTEGER not null COMMENT 'Manager Id',
+    "EMPLOYEE_FEEDBACK" NVARCHAR(512) COMMENT 'Employee feedback',
+    "EMPLOYEE_EXPERIENCE_RATING" DOUBLE COMMENT 'Employee experience rating',
+    PRIMARY KEY ("EMPLOYEE_ID")
+)
+COMMENT 'Employee experience results'
